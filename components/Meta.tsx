@@ -21,6 +21,7 @@ export const Meta = ({ title, description, url }) => {
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:creator" content="ritz078" />
       <link rel="manifest" href="/static/site.webmanifest" />
+      <script async src="https://umami.oospace.com/script.js" data-website-id="a35ba056-ded3-4c6d-ac77-85da4966c9f2"></script>
     </Head>
   );
 };
