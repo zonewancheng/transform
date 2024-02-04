@@ -11,7 +11,7 @@ export default function Navigator() {
   return (
     <Pane
       width={240}
-      height={"calc(100vh - 40px)"}
+      height={"calc(100vh)"}
       borderRight
       display="flex"
       flexDirection="column"
@@ -73,29 +73,6 @@ export default function Navigator() {
             </Fragment>
           );
         })}
-      </Pane>
-
-      <Pane borderTop>
-        <a
-          href="https://vercel.com?utm_source=ritz078&utm_campaign=oss"
-          target="_blank"
-        >
-          <img
-            src="https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg"
-            alt="Vercel"
-            style={{
-              height: 40,
-              display: "block",
-              margin: "10px auto 0"
-            }}
-          />
-        </a>
-        <Heading size={400} paddingY={15} textAlign="center">
-          Created by{" "}
-          <a href="https://twitter.com/ritz078" target="_blank">
-            @ritz078
-          </a>
-        </Heading>
       </Pane>
     </Pane>
   );
